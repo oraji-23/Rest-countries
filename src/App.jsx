@@ -26,9 +26,9 @@ function App() {
       setIsLoading(false);
     };
 
-    setTimeout(() => {
+    
       getData();
-    }, 3000);
+    
   }, []);
 
   const filterByRegion = (region) => {
